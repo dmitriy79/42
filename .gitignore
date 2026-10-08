@@ -1,0 +1,26 @@
+src/*.exe
+src/42d
+src/build.h
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.42
+#compilation and Qt preprocessor part
+*.qm
+build
+debug
+Makefile
+!src/leveldb/Makefile
+42-qt
+#resources cpp
+qrc_*.cpp
+#qt creator
+*.pro.user
+#mac specific
+.DS_Store
+
+Thumbs.db
